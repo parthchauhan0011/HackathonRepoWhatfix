@@ -1,4 +1,4 @@
-div{
+/*div{
     border: 2px solid black;
     border-radius: 16px;
     padding: 20px 20px;
@@ -40,3 +40,86 @@ h1{
     margin-left: auto;
     margin-right: auto;
  }
+*/
+.card{
+    background:linear-gradient(#3ca1c3, rgb(158, 219, 255));;
+    height: 60vh;
+    padding: 10px;
+    margin: 10vw;
+    margin-top:4vw;
+}
+.btn-primary{
+    width: 90%;
+    height: 10vh;
+    background-color: rgba(82, 70, 255, 0.57) !important;
+}
+.card-body{
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.card-text{
+    width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+.related-opt-grid{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 20px;
+  
+}
+.related-opt-grid div{
+   padding:1.1rem;
+     margin:1rem;
+}
+.related-opt-grid img{
+ width: 100%;
+  max-width:80px;
+  height: auto;
+}
+
+
+
+/* middle section*/
+
+.cards-m {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10vw;
+    margin-top:4vw;
+  }
+  .card-m {
+    flex: 0 0 300px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card-m img {
+   
+    width: 100%;
+  max-width:100%;
+  height: auto;
+  }
+  .card-m .text-m {
+    padding: 0 20px 20px;
+  }
+  .card-m .text-m > button {
+    background: #42b0f5 !important ;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+    h3 {text-align: center;}
+
+    .service-heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
